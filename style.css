@@ -78,20 +78,21 @@ footer a{color:#f7efe7}
 /* Full-size desktop layout */
 @media (min-width: 1200px) {
 
-  .site-header,
-  main {
-    width: 90%;
-    max-width: 1500px;
+  main,
+  .site-header {
+    width: min(1500px, 94vw);
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .site-header {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 30px 0;
   }
 
   .hero {
     padding: 42px 0 52px;
-    grid-template-columns: minmax(400px, .9fr) minmax(500px, 1fr);
+    grid-template-columns: 520px 1fr;
     gap: 70px;
   }
 
@@ -100,12 +101,10 @@ footer a{color:#f7efe7}
   }
 
   .featured {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 45px 0;
   }
 
   .link-grid {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 30px 0 45px;
   }
 }
