@@ -9,14 +9,14 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,Arial,sans-serif;line-height:1.55}
-.site-header{max-width:1400px;margin:auto;padding:30px 5%;display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid var(--wine)}
+.site-header{max-width:1600px;margin:auto;padding:30px 5%;display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid var(--wine)}
 .wordmark{text-decoration:none;color:var(--ink);letter-spacing:.22em}
 .wordmark span{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-size:32px;font-weight:600}
 .wordmark small{font-size:10px;letter-spacing:.25em}
 nav{display:flex;gap:30px;padding-top:12px}
 nav a,.link-grid a{color:var(--ink);text-decoration:none;font-size:12px;font-weight:600;letter-spacing:.12em}
 nav a:hover,.link-grid a:hover{color:var(--wine)}
-main{max-width:1400px;margin:auto}
+main{max-width:1600px;margin:auto}
 .hero{padding:42px 5% 52px;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1fr);gap:62px;align-items:center}
 .portrait{
   height:650px;
