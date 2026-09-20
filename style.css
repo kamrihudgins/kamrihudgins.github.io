@@ -75,67 +75,93 @@ footer a{color:#f7efe7}
 
 
 
-/* Desktop scale refinements */
-@media (min-width: 1000px) {
+/* Large desktop sizing */
+@media (min-width: 1400px) {
   .site-header,
   main {
-    max-width: 1450px;
+    max-width: 1700px;
+  }
+
+  .site-header {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .hero {
+    padding-left: 4%;
+    padding-right: 4%;
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1fr);
+    gap: 70px;
+  }
+
+  .portrait {
+    height: 720px;
   }
 
   .wordmark span {
-    font-size: 36px;
+    font-size: 40px;
   }
 
   .wordmark small {
-    font-size: 12px;
+    font-size: 13px;
   }
 
-  nav {
-    gap: 34px;
+  nav a {
+    font-size: 15px;
   }
 
-  nav a,
-  .link-grid a {
-    font-size: 14px;
+  h1 {
+    font-size: 82px;
   }
 
-  .eyebrow {
-    font-size: 14px;
+  .role {
+    font-size: 34px;
   }
 
+  .institution {
+    font-size: 25px;
+  }
+
+  .eyebrow,
   .areas {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .hero-copy p:not(.eyebrow):not(.role):not(.institution):not(.areas) {
-    font-size: 16px;
-    line-height: 1.65;
+    font-size: 18px;
   }
 
-  .button {
-    font-size: 13px;
-    padding: 18px 32px;
+  .featured {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .featured h2 {
+    font-size: 68px;
   }
 
   .featured p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+  }
+
+  .research-image {
+    min-height: 470px;
+  }
+
+  .link-grid {
+    padding-left: 4%;
+    padding-right: 4%;
   }
 
   .link-grid h3 {
-    font-size: 38px;
+    font-size: 42px;
   }
 
   .link-grid article p {
-    font-size: 15px;
-    line-height: 1.55;
+    font-size: 17px;
   }
 
   .link-grid a {
-    font-size: 13px;
-  }
-
-  footer {
     font-size: 14px;
   }
 }
