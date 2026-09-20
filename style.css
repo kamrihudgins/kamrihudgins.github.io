@@ -31,6 +31,8 @@ main{max-width:1400px;margin:auto}
 }
 .placeholder{background:linear-gradient(145deg,#6a2930,#3f151a);display:flex;align-items:center;justify-content:center;color:#f8eee6;letter-spacing:.18em;font-size:12px}
 .hero-copy{min-width:0;max-width:650px}
+.portrait{grid-column:1}
+.hero-copy{grid-column:2}
 .eyebrow{font-size:12px;letter-spacing:.22em;font-weight:600;margin:0 0 15px}
 h1,h2,h3,.role,.subtitle{font-family:"Cormorant Garamond",Georgia,serif}
 h1{font-size:76px;line-height:.9;margin:0 0 15px;font-weight:600}
