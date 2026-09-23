@@ -48,6 +48,18 @@ h1{font-size:76px;line-height:.9;margin:0 0 15px;font-weight:600}
 .subtitle{font-size:25px;font-style:italic;line-height:1.05;margin:0 0 20px}
 .small{padding:14px 25px}
 .research-image{min-height:420px;background:linear-gradient(135deg,#b5a99b,#514a44)}
+.research-image {
+  height: 420px;
+  overflow: hidden;
+}
+
+.research-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 .link-grid{border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(3,1fr);padding:30px 5% 45px}
 .link-grid article{padding:5px 40px;border-right:1px solid var(--line)}
 .link-grid article:first-child{padding-left:0}
