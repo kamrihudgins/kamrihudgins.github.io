@@ -213,3 +213,150 @@ footer a{color:#f7efe7}
     font-size: 42px;
   }
 }
+
+/* Research page */
+
+.research-page {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+  padding: 80px 0 100px;
+}
+
+.research-page > .eyebrow {
+  color: var(--wine);
+  margin-bottom: 18px;
+}
+
+.research-page > h1 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 68px;
+  line-height: 0.95;
+  font-weight: 600;
+  margin: 0 0 32px;
+  max-width: 900px;
+}
+
+.research-intro {
+  max-width: 950px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 25px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.research-page > .rule {
+  margin: 42px 0 58px;
+}
+
+.dissertation-section {
+  max-width: 950px;
+}
+
+.dissertation-section > .eyebrow {
+  color: var(--wine);
+  margin-bottom: 16px;
+}
+
+.dissertation-section h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 52px;
+  line-height: 1;
+  font-weight: 600;
+  margin: 0 0 28px;
+}
+
+.research-question {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 32px;
+  line-height: 1.25;
+  font-style: italic;
+  max-width: 900px;
+  margin: 0 0 30px;
+}
+
+.dissertation-section > p:not(.eyebrow):not(.research-question) {
+  max-width: 900px;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0 0 18px;
+}
+
+.research-divider {
+  border-top: 1px solid var(--line);
+  margin: 58px 0;
+}
+
+.publications-section {
+  max-width: 950px;
+}
+
+.publications-section h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 52px;
+  line-height: 1;
+  font-weight: 600;
+  margin: 0 0 42px;
+}
+
+.publications-section h3 {
+  font-size: 12px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  margin: 42px 0 22px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-item {
+  margin-bottom: 26px;
+}
+
+.research-item p {
+  margin: 0 0 7px;
+  line-height: 1.6;
+}
+
+.research-item strong {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.research-item .citation {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.publication-link {
+  color: var(--ink);
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.publication-link:hover {
+  color: var(--wine);
+}
+
+@media (max-width: 700px) {
+  .research-page {
+    padding: 50px 0 70px;
+  }
+
+  .research-page > h1 {
+    font-size: 48px;
+  }
+
+  .research-intro {
+    font-size: 22px;
+  }
+
+  .dissertation-section h2,
+  .publications-section h2 {
+    font-size: 42px;
+  }
+
+  .research-question {
+    font-size: 27px;
+  }
+}
